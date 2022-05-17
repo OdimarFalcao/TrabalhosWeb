@@ -1,23 +1,26 @@
 body {
-    background-color: rgb(247, 247, 247);
+    height: 100vh;
+    font-family: Helvetica !important;
 }
 
-* {
-    text-decoration: none;
-}
 
-img {
+/* img {
     border-radius: 100%;
-}
+    width: 100px;
+} */
 
 p {
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
 }
 
-#navegacao {    
-    list-style-type: none;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+#navegacao {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -29,19 +32,41 @@ p {
 .navegacaof:hover {
     background-color: rgba(15, 25, 20, 0.1);
     border-radius: 20px;
-
     color: rgb(15, 20, 25);
 }
 
-.navegacaof a{
+.navegacaof a {
     width: 100%;
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.btn-custon2 {
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-custon {
+    /* padding: 10px 50px; */
+    border-radius: 50px;
+    border: none;
+    /* width: 100%; */
+}
+
+.btn-custon p {
+    padding: 10px 40px;
+    /* width: 100%; */
+}
+
+.btn-custon:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
     color: rgb(15, 20, 25);
 }
 
 #image {
     display: flex;
     flex-direction: row;
-
     align-items: flex-end;
 }
 
@@ -55,30 +80,33 @@ p {
 
 #descricao {
     color: rgb(15, 20, 25);
-}   
-
+}
 
 #estatiticas {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-
-
     gap: 23px;
 }
 
-.estatiticasf a{
+.estatiticasf a {
     color: rgb(83, 100, 113);
     text-decoration: none;
 }
 
-.estatiticasf a:hover{
+.estatiticasf a:hover {
     text-decoration: underline;
 }
 
-.estatiticasf a strong{
+.estatiticasf a strong {
     color: rgb(15, 20, 25);
     font-weight: bold;
+}
+
+.explorar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .tweet {
@@ -92,7 +120,6 @@ p {
     background-color: rgba(249, 24, 128, 0.1);
 }
 
-
 .tweetData {
     color: rgb(83, 100, 113);
 }
@@ -103,24 +130,21 @@ p {
 
 #acoes {
     width: 100%;
-
     display: flex;
     flex-direction: row;
     list-style-type: none;
-
     align-items: center;
     align-content: space-between;
     gap: 10px;
 }
 
-#acoes li a{
+#acoes li a {
     color: rgb(83, 100, 113);
     padding: 5px;
-
     border-radius: 10px;
 }
 
-#acoes li a:hover{
+#acoes li a:hover {
     text-decoration: underline;
 }
 
