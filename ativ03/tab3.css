@@ -3,12 +3,6 @@ body {
     font-family: Helvetica !important;
 }
 
-
-/* img {
-    border-radius: 100%;
-    width: 100px;
-} */
-
 p {
     margin: 0 !important;
     padding: 0;
@@ -39,11 +33,6 @@ p {
     width: 100%;
     color: rgb(15, 20, 25);
     text-decoration: none;
-}
-
-.btn-custon2 {
-    border-radius: 50px;
-    border: none;
 }
 
 .btn-custon {
@@ -87,15 +76,13 @@ p {
     flex-direction: row;
     list-style-type: none;
     gap: 23px;
+    border: gray;
 }
 
 .estatiticasf a {
     color: rgb(83, 100, 113);
     text-decoration: none;
-}
-
-.estatiticasf a:hover {
-    text-decoration: underline;
+    border: gray;
 }
 
 .estatiticasf a strong {
@@ -107,6 +94,13 @@ p {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: gray;
+}
+
+.barraDeAtividade:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    padding: 10px;
+    color: rgb(15, 20, 25);
 }
 
 .tweet {
@@ -128,37 +122,61 @@ p {
     color: rgb(15, 20, 25);
 }
 
+.acoesf:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+    color: rgb(15, 20, 25);
+}
+
 #acoes {
     width: 100%;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     align-items: center;
-    align-content: space-between;
-    gap: 10px;
+    justify-content: center;
 }
 
 #acoes li a {
     color: rgb(83, 100, 113);
     padding: 5px;
     border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-#acoes li a:hover {
-    text-decoration: underline;
-}
-
-#comentarios_share a:hover {
+#comentarios_share:hover i {
     background: rgba(29, 155, 240, 0.1);
+    border-radius: 20px;
+}
+
+#comentarios_share:hover a {
     color: rgba(29, 155, 240, 1);
 }
 
-#retweet a:hover {
-    background: rgba(0, 186, 124, 0.1);
+#retweet:hover a {
     color: rgba(0, 186, 124, 1);
 }
 
-#like a:hover {
+#retweet:hover i {
+    background: rgba(0, 186, 124, 0.1);
+    border-radius: 20px;
+}
+
+#like:hover i {
     background: rgba(249, 24, 128, 0.1);
+    border-radius: 10px;
+}
+
+#like:hover a {
     color: rgba(249, 24, 128, 1);
+}
+
+.explorar {
+    display: flex;
+    background: rgba(239, 243, 244);
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
 }
