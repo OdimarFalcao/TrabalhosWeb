@@ -17,7 +17,7 @@
     <div class="container-fluid ">
         <div class="row">
 
-            <div class="col-sm-3 col-lg-3 col-md-3 col-md-3 border">
+            <div class="col-xl-2 col-sm-3 col-lg-3 col-md-3 col-md-3 border">
                 <div id="navegacao">
                     <ul id="navegacao">
                         <li class="p-3 d-flex justify-content-center align-self-left">
@@ -50,7 +50,7 @@
                         <li class="navegacaof row d-flex justify-content-center align-self-center">
                             <i class="bi bi-person-fill p-1 d-flex col-5 justify-content-center justify-content-
                             md-center justify-content-lg-end align-self-center"></i>
-                            <a href="#" class="d-none d-sm-none d-md-none d-lg-block d-xl-block p-1 col">Profile</a>
+                            <a href="./profile.html" class="d-none d-sm-none d-md-none d-lg-block d-xl-block p-1 col">Profile</a>
                         </li>
 
                         <li class="navegacaof row d-flex justify-content-center align-self-center">
@@ -60,7 +60,7 @@
                         </li>
 
                         <li class="row-4 d-flex justify-content-center align-self-center">
-                            <button class=" w-auto btn-custon d-block d-sm-block d-md-block d-lg-block d-xl-block btn-primary justify-content-center align-self-center">
+                            <button id="tzeet" class=" w-auto btn-custon d-block d-sm-block d-md-block d-lg-block d-xl-block btn-primary justify-content-center align-self-center">
                     
                                 <i class="bi bi-send-plus p-1 d-flex justify-content-center d-block d-sm-block
                                 d-md-block d-lg-none d-xl-none align-self-center btn-custon"></i>
@@ -72,67 +72,108 @@
                 </div>
             </div>
 
-            <div class="col-sm-8 col-md-6 col-lg-6 col-xl-6 border">
+            <div class="col-sm-8 col-md-6 col-lg-6 col-xl-7 border">
+                <h3>Home</h3>
                 <div class="row">
-                    <div id="image" class="col-xl-4 col-sm-4 col-md-4 col-lg-4">
-                        <img src="./LávemoPablo (1).jpg " class="rounded-circle" height="150" width="150">
+                    <div id="image" class="col-xxl-1 col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex justify-content-end align-items-center pb-5">
+                        <img src="./LávemoPablo (1).jpg " class="rounded-circle" width="64px" height="64px">
                     </div>
-                    <div class="col-xl col-md col-sm d-flex justify-content-end aling-self-end">
-                        <button class="w-auto p-0 btn-custon d-block col-3 d-sm-block d-md-block
-                            d-lg-block d-xl-block btn-primary justify-content-end align-self-sm-end"> 
-                            <p class="d-block d-sm-block  d-md-block d-lg-block d-xl-block">Editar Perfil</p>
-                        </button>
+                    <div class="col-xxl col-xl col-md col-sm d-flex justify-content-end aling-self-end flex-column mt-5">
+
+                        <div class="modal" id="modal" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Tzeet</h5>
+                                        <button type="button" id="fechar" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <textarea class="col-12 d-flex textarea" name="textarea" id="textareamd" cols="100" rows="1" placeholder="O que você está pensando?"></textarea>
+                                            <div>
+                                                <a class="col-12 reply" style="text-decoration: none;">
+                                                    <i class="bi bi-globe"></i> Everyone can reply</a>
+                                            </div>
+                                            <div class="d-flex flex-row justify-content-between border-top">
+                                                <ul class="d-flex flex-row">
+                                                    <li class=" multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-image p-1"></i>
+                                                    </li>
+                                                    <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-filetype-doc p-1"></i>
+                                                    </li>
+                                                    <li class=" multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-emoji-smile p-1"></i>
+                                                    </li>
+                                                    <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-bar-chart p-1"></i>
+                                                    </li>
+                                                    <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-calendar-event p-1"></i>
+                                                    </li>
+                                                    <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi  bi-geo-alt-fill p-1"></i>
+                                                    </li>
+                                                </ul>
+                                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                                    <p id="contadormd">0</p>
+                                                    <i class="bi bi-grip-vertical p-1"></i>
+                                                    <div class="d-flex justify-content-center align-self-center p-2">
+                                                        <i class="bi bi-plus-circle p-1"></i>
+                                                    </div>
+                                                    <button class="btn-custon p-2 btn-primary" id="buttonPostmd">Enviar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex" style="flex-direction: column; padding: 5px">
+                            <div>
+                                <textarea class="col-12 d-flex textarea" name="textarea" id="textarea" cols="100" rows="1" placeholder="O que você está pensando?"></textarea>
+                                <div>
+                                    <a class="col-12 reply" style="text-decoration: none;">
+                                        <i class="bi bi-globe"></i> Everyone can reply</a>
+                                </div>
+                                <div class="d-flex flex-row justify-content-between border-top">
+                                    <ul class="d-flex flex-row">
+                                        <li class=" multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-image p-1"></i>
+                                        </li>
+                                        <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-filetype-doc p-1"></i>
+                                        </li>
+                                        <li class=" multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-emoji-smile p-1"></i>
+                                        </li>
+                                        <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-bar-chart p-1"></i>
+                                        </li>
+                                        <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-calendar-event p-1"></i>
+                                        </li>
+                                        <li class="multimedia d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi  bi-geo-alt-fill p-1"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex flex-row justify-content-between align-items-center">
+                                        <p id="contador">0</p>
+                                        <i class="bi bi-grip-vertical p-1"></i>
+                                        <div class="d-flex justify-content-center align-self-center p-2">
+                                            <i class="bi bi-plus-circle p-1"></i>
+                                        </div>
+                                        <button class="btn-custon p-2 btn-primary" id="buttonPost">Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+                <!--HOME SECTION-->
 
-                <h2 class="name ">Falcão</h2>
-                <h6 class="nickName ">@Dumbof14</h6>
-
-                <p id="descricao ">
-                    Porque é assim que é, renascendo das cinzas. Firme e forte guerreiro de Fé;Racionais
-                </p>
-
-
-                <ul id="estatiticas">
-                    <li class="estatiticasf col-4 justify-content-left">
-                        <i class="bi bi-geo-alt"></i>
-                        <a href="#">Terras do Nordeste</a>
-                    </li>
-                    <li class="estatiticasf col-4 justify-content-left">
-                        <i class="bi bi-balloon"></i>
-                        <a href="#">Nascido em 5 de agosto de 2002</a>
-                    </li>
-                </ul>
-
-                <ul id="estatiticas">
-                    <li class="estatiticasf">
-                        <a href="#">
-                            <strong>924</strong> Seguindo
-                        </a>
-                    </li>
-
-                    <li class="estatiticasf">
-                        <a href="#">
-                            <strong>756</strong> Seguidores
-                        </a>
-                    </li>
-
-                </ul>
-
-                <div class="d-flex justify-content-center align-self-center" id="estatiticas">
-                    <li class="col d-flex justify-content-center align-self-center estatiticasf barraDeAtividade ">
-                        <a href="# ">Tzeets</a>
-                    </li>
-                    <li class="col d-flex justify-content-center align-self-center estatiticasf barraDeAtividade">
-                        <a href="# ">Tzeets&Replies</a>
-                    </li>
-                    <li class="col d-flex justify-content-center align-self-center estatiticasf barraDeAtividade">
-                        <a href="# ">Medias</a>
-                    </li>
-                    <li class="col d-flex justify-content-center align-self-center estatiticasf barraDeAtividade">
-                        <a href="# ">Links</a>
-                    </li>
-                </div>
                 <div class="row border">
                     <div>
                         <div class="tweet">
@@ -197,10 +238,10 @@
                 </div>
             </div>
 
-            <div class=" col-sm-none col-md-3 col-xl-3 col-lg-3 border p-3">
-                <button class="col-12 btn-custon d-flex  btn-gray">
+            <div class=" col-sm-10 col-md-3 col-xl-3 col-lg-3 border p-3">
+                <button class="col-12 btn-custon d-flex" style="background: rgba(239, 243, 244);">
                     <i class="bi bi-search p-3 btn-custon"></i>
-                    <p class="p-3">Tweet</p>
+                    <p class="p-3">Username</p>
                 </button>
                 <br>
 
@@ -240,6 +281,8 @@
 
     <script type="text/javascript " src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js ">
     </script>
+    <script type="text/javascript" src="./scriptHome.js"></script>
+
 </body>
 
 </html>

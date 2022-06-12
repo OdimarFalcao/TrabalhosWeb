@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <section class="form">
+            <form action="#" onsubmit="enviarForm(); return false">
+                <select name="meio-transporte" id="meio-transporte" onchange="changeSelectValueTransporte(value)">
+                    <option value="Avião">Avião</option>
+                    <option value="Ônibus">Ônibus</option>
+                </select>
+                <select name="tipo-viagem" id="tipo-viagem">
+                    <option value="Internacional">Internacional</option>
+                    <option value="Nacional">Nacional</option>
+                </select>
+                <div class="div-checkbox">
+                    <label for="ida-volta">Ida e Volta</label>
+                    <input type="checkbox" name="ida-volta" id="ida-volta">
+                </div>
+
+                <input type="submit" value="Enviar" id="button-enviar">
+            </form>
+
+            <div class="div-saldo">
+                <h3>Saldo atual: </h3>
+                <h3 id="saldo"></h3>
+            </div>
+        </section>
+
+        <section class="historico">
+            <h1>Histórico</h1>
+
+            <table id="table-historico">
+                <tr>
+                    <th>Meio de Transporte</th>
+                    <th>Tipo</th>
+                    <th>ida-e-volta</th>
+                    <th>Custo em pontos</th>
+                </tr>
+            </table>
+
+            <div class="div-total-viagens" id="div-total-viagens"></div>
+        </section>
+    </div>
+    <script type="text/javascript " src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js ">
+    </script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: black;
+}
+
+body>div {
+    padding: 20px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.div-saldo,
+.div-total-viagens {
+    margin-top: 30px;
+}
+
+.div-saldo h3 {
+    font-size: 25px;
+    display: inline;
+    margin: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    text-align: center;
+    border: 2px solid #dddddd;
+    padding: 8px 10px;
+}
+
+.div-total-viagens h3 {
+    display: inline;
+}
