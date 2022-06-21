@@ -1,0 +1,214 @@
+body {
+    height: 100vh;
+    font-family: Helvetica !important;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reply:hover {
+    background-color: rgba(29, 155, 240);
+    border-radius: 40px;
+}
+
+.multimedia:hover {
+    background-color: rgba(29, 155, 240);
+    border-radius: 40px;
+}
+
+#navegacao {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacaof {
+    padding: 10px;
+}
+
+.navegacaof:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+    color: rgb(15, 20, 25);
+}
+
+.navegacaof a {
+    width: 100%;
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.btn-custon {
+    /* padding: 10px 50px; */
+    border-radius: 50px;
+    border: none;
+    /* width: 100%; */
+}
+
+.btn-custon p {
+    padding: 10px 40px;
+    /* width: 100%; */
+}
+
+.btn-custon:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+    color: rgb(15, 20, 25);
+}
+
+#image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.name {
+    color: rgb(15, 20, 25);
+}
+
+.nickName {
+    color: rgb(83, 100, 113);
+}
+
+#descricao {
+    color: rgb(15, 20, 25);
+}
+
+#estatiticas {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 23px;
+    border: gray;
+}
+
+.estatiticasf a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+    border: gray;
+}
+
+.estatiticasf a strong {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.textarea {
+    border: none;
+}
+
+.textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.explorar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: gray;
+}
+
+.barraDeAtividade:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    padding: 10px;
+    color: rgb(15, 20, 25);
+}
+
+.tweet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.tweet:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+}
+
+.tweetData {
+    color: rgb(83, 100, 113);
+}
+
+.tweetTexto {
+    color: rgb(15, 20, 25);
+}
+
+.acoesf:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+    color: rgb(15, 20, 25);
+}
+
+#acoes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#textarea {
+    resize: none;
+    display: inline;
+}
+
+#contador {
+    display: inline;
+}
+
+#buttonPost {
+    display: block;
+}
+
+#acoes li a {
+    color: rgb(83, 100, 113);
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#comentarios_share:hover i {
+    background: rgba(29, 155, 240, 0.1);
+    border-radius: 20px;
+}
+
+#comentarios_share:hover a {
+    color: rgba(29, 155, 240, 1);
+}
+
+#retweet:hover a {
+    color: rgba(0, 186, 124, 1);
+}
+
+#retweet:hover i {
+    background: rgba(0, 186, 124, 0.1);
+    border-radius: 20px;
+}
+
+#like:hover i {
+    background: rgba(249, 24, 128, 0.1);
+    border-radius: 10px;
+}
+
+#like:hover a {
+    color: rgba(249, 24, 128, 1);
+}
+
+.explorar {
+    display: flex;
+    background: rgba(239, 243, 244);
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
