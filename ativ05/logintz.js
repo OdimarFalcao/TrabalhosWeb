@@ -5,8 +5,13 @@ function verifyBtnLogin() {
     let button = document.getElementById("btn");
 
     document.addEventListener('keyup', function() {
+        console.log(inputEmail.value.length)
+        console.log(inputPassword.value.length)
         if (inputEmail.value.length > 0 && inputPassword.value.length > 0) {
-            button.disabled = false;
+            button.removeAttribute("disabled", false)
+            button.style.backgroundColor = gray;
+        } else {
+            button.setAttribute("disabled", "disabled")
         }
     });
 }
