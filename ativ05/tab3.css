@@ -13,6 +13,13 @@ p {
     margin: 0 auto;
 }
 
+.centraliza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vH;
+}
+
 .reply:hover {
     background-color: rgba(29, 155, 240);
     border-radius: 40px;
