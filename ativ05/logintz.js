@@ -8,8 +8,8 @@ function verifyBtnLogin() {
         console.log(inputEmail.value.length)
         console.log(inputPassword.value.length)
         if (inputEmail.value.length > 0 && inputPassword.value.length > 0) {
-            button.removeAttribute("disabled", false)
-            button.style.backgroundColor = gray;
+            button.removeAttribute("disabled")
+
         } else {
             button.setAttribute("disabled", "disabled")
         }
