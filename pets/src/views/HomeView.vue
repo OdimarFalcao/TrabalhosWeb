@@ -25,42 +25,40 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                            <a class="img-card" href="/">
                             <img src="https://www.vetquality.com.br/wp-content/uploads/2020/06/como-dar-banho-em-cachorro-em-casa.jpg" />
                           </a>
                             <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> Bootstrap 3 Carousel FadeIn Out Effect
-                                  </a>
+                                <h4 class="card-title justify-content-center">
+                                    Banho
                                 </h4>
                                 <p class="">
-                                    Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
+                                    Seu animal merece estar sempre limpinho e cheiroso 
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="" class="btn btn-link btn-block">
+                                    Reservar
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
-                            <a class="img-card" href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                            <a class="img-card" href="">
                             <img src="https://t2.ea.ltmcdn.com/pt/posts/1/0/2/como_tosar_um_gato_em_casa_21201_paso_3_600.jpg" />
                           </a>
                             <div class="card-content">
                                 <h4 class="card-title">
-                                    <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"> Material Design Responsive Menu
-                                  </a>
+                                   Tosa
                                 </h4>
                                 <p class="">
-                                    Material Design is a visual programming language made by Google. Language programming...
+                                  Seu bixinho tem que andar com o pelo na régua
                                 </p>
                             </div>
                             <div class="card-read-more">
-                                <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
-                                    Read More
+                                <a href="" class="btn btn-link btn-block">
+                                    Reservar
                                 </a>
                             </div>
                         </div>
