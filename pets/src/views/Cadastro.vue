@@ -96,6 +96,7 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'Help',
+  
 }); 
 
 </script>
