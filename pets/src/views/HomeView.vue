@@ -63,6 +63,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="/">
+                            <img src="https://www.vetreboucas.com.br/wp-content/uploads/2020/10/hospital-veterinario-24h.jpg" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title justify-content-center">
+                                    Veterinário
+                                </h4>
+                                <p class="">
+                                    Seu animal precisa estar sempre com a saúde em dia                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="" class="btn btn-link btn-block">
+                                    Reservar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     </div>
             </div>
         </div>
