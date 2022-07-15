@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
 import Cadastro from '../views/Cadastro.vue'
+import CdtBanho from '../views/CdtBanho.vue'
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,12 @@ const routes: Array<RouteConfig> = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/cdtbanho',
+    name: 'cdtbanho',
+    component: CdtBanho
+  },
+ 
   {
     path: '/cadastro',
     name: 'cadastro',

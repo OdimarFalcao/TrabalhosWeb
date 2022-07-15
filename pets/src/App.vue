@@ -17,7 +17,7 @@
     <!-- Main -->
     <div class="App">
       <div class="vertical-center">
-          <router-view />
+          <router-view/>
       </div>
     </div>
   </div>
